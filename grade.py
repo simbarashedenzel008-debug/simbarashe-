@@ -1,0 +1,19 @@
+grade=int(input("Enter your marks:"))
+
+def get_grade (grade):
+    if grade>=90 and grade<=100:
+        return"A"
+    elif  grade >= 80 and grade<=89:
+        return "A"
+    elif grade>=70 and grade<=79:
+        return"B"
+    elif grade>=60 and grade<=59:
+        return"B"
+    elif grade>=50 and grade<=59:
+        return"C"
+    elif grade>=40 and grade<=49:
+        return"F"
+    else:
+        return"U"
+
+print(get_grade(grade))
